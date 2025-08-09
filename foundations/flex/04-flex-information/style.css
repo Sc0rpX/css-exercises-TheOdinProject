@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+.info-container{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title{
+  text-align: center;
+}
+
+.plant-list{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plant-item{
+  width: 200px;
+  text-align: center;
+}
